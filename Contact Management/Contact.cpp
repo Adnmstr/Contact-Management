@@ -5,11 +5,11 @@ int Contact::totalCt = -1;
 Contact::Contact()
 {
 	this->name.setFName("Empty");
-	this->name.setLName("Empty");
-	this->address.setStreetAddress("Empty");
-	this->address.setState("Empty");
-	this->address.setZip("Empty");
-	this->phone = "Empty";
+	this->name.setLName("");
+	this->address.setStreetAddress("");
+	this->address.setState("");
+	this->address.setZip("");
+	this->phone = "";
 	setID();
 }
 
